@@ -1,0 +1,9 @@
+[submodule "EgweneService/Server"]
+	path = EgweneService/Server
+	url = https://github.com/asherCult/EgweneService-Server.git
+[submodule "EgweneUI/Loader"]
+	path = EgweneUI/Loader
+	url = https://github.com/asherCult/EgweneUI-Loader.git
+[submodule "EgwenePlugins/QuestBook"]
+	path = EgwenePlugins/QuestBook
+	url = https://github.com/asherCult/EgwenePlugins-QuestBook.git
