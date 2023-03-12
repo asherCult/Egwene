@@ -7,3 +7,6 @@
 [submodule "EgwenePlugins/QuestBook"]
 	path = EgwenePlugins/QuestBook
 	url = https://github.com/asherCult/EgwenePlugins-QuestBook.git
+[submodule "EgweneService/EgweneService"]
+	path = EgweneService/EgweneService
+	url = https://github.com/asherCult/EgweneService-EgweneService.git

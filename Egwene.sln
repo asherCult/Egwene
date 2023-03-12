@@ -1,8 +1,47 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+#
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EgweneService", "EgweneService", "{84B3345C-5C5E-4E2C-B459-E13C5C628823}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "EgweneService\Server\Server.csproj", "{3276B5B5-A428-4200-B976-BC699B9C82D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EgwenePlugins", "EgwenePlugins", "{A6BA68A8-32CF-40A2-9CD0-F9AFD038FF9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestBook", "EgwenePlugins\QuestBook\QuestBook.csproj", "{B2500C2F-92ED-4055-8435-A7F21C1A18F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EgweneUI", "EgweneUI", "{44716D2A-DA4D-45AF-B75A-46CFD08F0AE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loader", "EgweneUI\Loader\Loader.csproj", "{DE183FAF-933E-482B-873C-EFC2FB6EEBA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EgweneService", "EgweneService\EgweneService\EgweneService.csproj", "{B25C5F55-E2D2-4F6F-B3BE-3E9F09BF54AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3276B5B5-A428-4200-B976-BC699B9C82D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3276B5B5-A428-4200-B976-BC699B9C82D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3276B5B5-A428-4200-B976-BC699B9C82D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3276B5B5-A428-4200-B976-BC699B9C82D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2500C2F-92ED-4055-8435-A7F21C1A18F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2500C2F-92ED-4055-8435-A7F21C1A18F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2500C2F-92ED-4055-8435-A7F21C1A18F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2500C2F-92ED-4055-8435-A7F21C1A18F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE183FAF-933E-482B-873C-EFC2FB6EEBA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE183FAF-933E-482B-873C-EFC2FB6EEBA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE183FAF-933E-482B-873C-EFC2FB6EEBA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE183FAF-933E-482B-873C-EFC2FB6EEBA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B25C5F55-E2D2-4F6F-B3BE-3E9F09BF54AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B25C5F55-E2D2-4F6F-B3BE-3E9F09BF54AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B25C5F55-E2D2-4F6F-B3BE-3E9F09BF54AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B25C5F55-E2D2-4F6F-B3BE-3E9F09BF54AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3276B5B5-A428-4200-B976-BC699B9C82D1} = {84B3345C-5C5E-4E2C-B459-E13C5C628823}
+		{B2500C2F-92ED-4055-8435-A7F21C1A18F6} = {A6BA68A8-32CF-40A2-9CD0-F9AFD038FF9B}
+		{DE183FAF-933E-482B-873C-EFC2FB6EEBA3} = {44716D2A-DA4D-45AF-B75A-46CFD08F0AE5}
+		{B25C5F55-E2D2-4F6F-B3BE-3E9F09BF54AB} = {84B3345C-5C5E-4E2C-B459-E13C5C628823}
 	EndGlobalSection
 EndGlobal
