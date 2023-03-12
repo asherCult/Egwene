@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 #
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EgweneService", "EgweneService", "{84B3345C-5C5E-4E2C-B459-E13C5C628823}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "EgweneService\Server\Server.csproj", "{3276B5B5-A428-4200-B976-BC699B9C82D1}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EgwenePlugins", "EgwenePlugins", "{A6BA68A8-32CF-40A2-9CD0-F9AFD038FF9B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestBook", "EgwenePlugins\QuestBook\QuestBook.csproj", "{B2500C2F-92ED-4055-8435-A7F21C1A18F6}"
